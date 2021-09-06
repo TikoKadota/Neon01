@@ -212,7 +212,8 @@
   position: relative;
   z-index: 5;
 }
-.instagram img{
+/* 本番に使うコード */
+/* .instagram img{
   max-width: 200px;
   margin-right: 20px;
   padding: 10px;
@@ -224,6 +225,17 @@
     }
   .instagram{
     justify-content: space-around;
+  } */
+  .art-item{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 10px;
+    transition:1s all;
+  }
+  .art-item:hover{
+    transform:scale(1.1,1.1);
+    transition:1s all;
   }
 /* --------------------------- */
 /* blog
@@ -517,7 +529,7 @@
 /* --------------------------- */
 /* Instagramフィード
 /* --------------------------- */
-.instagram img{
+.art-item img{
   max-width: 150px;
   margin-right: 20px;
   padding: 10px;
@@ -668,11 +680,13 @@
 /* --------------------------- */
 /* Instagramフィード
 /* --------------------------- */
-.instagram img{
-  max-width: 300px;
+.art-item img{
   margin-right: 0;
   padding: 10px;
   transition:1s all;
+  }
+  .artwork{
+    justify-content: center;
   }
 /* --------------------------- */
 /* blog
