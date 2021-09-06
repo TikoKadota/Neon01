@@ -12,7 +12,7 @@
   z-index: -100;
   background: url('../images/kv_neon.jpg') no-repeat;
   background-size: cover;
- }
+}
 .kv-wrapper{
   position: relative;
   width: 100vw;
@@ -344,25 +344,9 @@
 }
 /* 送信用ボタン要素 */
 .btn{
-  display: inline-block;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding : 5px 30px;   /* 余白       */
-  background : #ffffff;     /* 背景色     */
-  color : #999999;     /* 文字色     */
-  line-height : 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  border: 2px solid #ffffff;    /* 枠の指定 */
-  margin: 0 auto;
-  border-radius: 2px;
-}
-.btn:hover {
-  color: #ffffff;     /* 背景色     */
-  background: #999999;     /* 文字色     */
-}
-.btn{
   display: block;
+  cursor: pointer;  
+  padding : 5px 30px; 
   line-height: 40px;
   width: 150px;
   border-radius: 2px;
@@ -371,6 +355,13 @@
   transition: .3s;
   margin: 0 auto;
   border-color: #fff;
+  border: 2px solid #ffffff;
+  color : #999999; 
+  -webkit-appearance: none;
+}
+.btn:hover {
+  color: #ffffff;
+  background: #999999;
 }
 .end-message {
   display: none;
