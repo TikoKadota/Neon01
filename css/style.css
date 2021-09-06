@@ -307,6 +307,7 @@
 .form-item-heading{
   font-size: 1.2rem;
   margin-bottom: 5px;
+  font-weight: lighter;
   color: #999999;
 }
 .form-item-field{
