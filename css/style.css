@@ -529,8 +529,8 @@
 /* --------------------------- */
 /* Instagramフィード
 /* --------------------------- */
-.art-item img{
-  max-width: 150px;
+.art-item{
+  width: 150px;
   margin-right: 20px;
   padding: 10px;
   transition:1s all;
@@ -680,7 +680,9 @@
 /* --------------------------- */
 /* Instagramフィード
 /* --------------------------- */
-.art-item img{
+.art-item{
+  width: 300px;
+  height: 300px;
   margin-right: 0;
   padding: 10px;
   transition:1s all;
